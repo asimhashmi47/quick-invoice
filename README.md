@@ -45,7 +45,7 @@ package).
 ## Getting Started
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/asimhashmi47/quick-invoice.git
 cd quickinvoice
 npm install
 npm run dev
