@@ -1,0 +1,4 @@
+node_modules/
+database/
+coverage/
+package-lock.json

@@ -1,0 +1,50 @@
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm;
+  }
+
+  html,
+  body {
+    background: #fff;
+  }
+
+  .no-print,
+  .sidebar,
+  .sidebar-overlay,
+  .topbar,
+  .toast-container,
+  #modal-root {
+    display: none !important;
+  }
+
+  .app-shell {
+    display: block;
+  }
+
+  .page-content {
+    padding: 0;
+    max-width: none;
+  }
+
+  .invoice-doc {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    max-width: none;
+  }
+
+  .invoice-doc thead th {
+    border-bottom: 1px solid #c9ccd6;
+  }
+
+  .invoice-doc tr {
+    break-inside: avoid;
+  }
+
+  .invoice-brand,
+  .badge {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
