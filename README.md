@@ -38,10 +38,9 @@ package).
 > Screenshots can be added here once the app is running locally — see **Getting Started** below.
 
 ![Dashboard with KPI cards and recent invoices](docs/dashboard.png)
-- `docs/dashboard.png` — Dashboard with KPI cards and recent invoices
-- `docs/customers.png` — Customer list and add/edit form
-- `docs/invoice-editor.png` — Invoice creation screen with live totals
-- `docs/invoice-preview.png` — Print-ready invoice preview
+![Customer list and add/edit form](docs/customers.png)
+![Invoice creation screen with live totals](docs/invoice-editor.png)
+![Print-ready invoice preview](docs/invoice-preview.png)
 
 ## Getting Started
 
